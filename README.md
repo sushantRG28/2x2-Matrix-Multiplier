@@ -37,7 +37,7 @@ The design is broken down into several modules, each responsible for a specific 
 - [8-bit adder](#8-bit_adder)
 - [Custom counter](#Custom_counter)
 
- ## 3-bit_counter
+ **3-bit_counter**
 As the name suggests, this module counts through states 0 to 7 in a repeating sequence. Along with a clock (clk) which helps in timing its counting patters, it also has control signals count enable (ce) ad master reset (mr). The counter increments with the clock only when 'ce' is active and it can be reset to 0 using the 'mr' signal.
 The part it plays is that according to the count in the counter, the inputs are sent to appropriate register amongst the 8 registers.
 
