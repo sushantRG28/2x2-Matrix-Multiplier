@@ -29,7 +29,7 @@ The design involves creating connections among various blocks to perform matrix 
 
 The design is broken down into several modules, each responsible for a specific part of the matrix multiplication:
 
-- [3-bit counter](#threebitcounter)
+- [3-bit counter](#3-bitcounter)
 - [3x8 decoder](#threexeightdecoder)
 - [4-bit register](#fourbitregister)
 - [2x1 MUX](#twoxonemux_fourbit)
