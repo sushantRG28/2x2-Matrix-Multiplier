@@ -29,14 +29,6 @@ The design involves creating connections among various blocks to perform matrix 
 
 The design is broken down into several modules, each responsible for a specific part of the matrix multiplication:
 
-- [3-bit counter](#3-bit_counter)
-- [3x8 decoder](#3x8_decoder)
-- [4-bit register](#4-bit_register)
-- [2x1 MUX](#2x1_MUX)
-- [4-bit multiplier](#4-bit_multiplier)
-- [8-bit adder](#8-bit_adder)
-- [Custom counter](#Custom_counter)
-
 - **3-bit_counter**
 As the name suggests, this module counts through states 0 to 7 in a repeating sequence. Along with a clock (clk) which helps in timing its counting patters, it also has control signals count enable (ce) ad master reset (mr). The counter increments with the clock only when 'ce' is active and it can be reset to 0 using the 'mr' signal.
 The part it plays is that according to the count in the counter, the inputs are sent to appropriate register amongst the 8 registers.
