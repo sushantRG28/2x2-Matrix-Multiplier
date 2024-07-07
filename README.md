@@ -10,7 +10,6 @@ This project implements a 2x2 matrix multiplier in Verilog HDL using Xilinx soft
 - [Modules](#modules)
 - [Testbench](#testbench)
 - [Results](#results)
-- [License](#license)
 
 ## Overview
 
@@ -30,13 +29,34 @@ The design involves creating connections among various blocks to perform matrix 
 
 The design is broken down into several modules, each responsible for a specific part of the matrix multiplication:
 
-- **threebitcounter**: A 3-bit counter.
-- **threexeightdecoder**: A 3-to-8 line decoder.
-- **fourbitregister**: A 4-bit register.
-- **twoxonemux_fourbit**: A 2-to-1 multiplexer for 4-bit inputs.
-- **fourbitmultiplier**: A 4-bit multiplier.
-- **eightbitadder**: An 8-bit adder.
-- **customcounter**: A custom counter to manage timing and sequencing.
+- [3-bit counter](#threebitcounter)
+- [3x8 decoder](#threexeightdecoder)
+- [4-bit register](#fourbitregister)
+- [2x1 MUX](#twoxonemux_fourbit)
+- [4-bit multiplier](#fourbitmultiplier)
+- [8-bit adder](#eightbitadder)
+- [Custom counter](#customcounter)
+
+ ## threebitcounter
+
+
+## threexeightdecoder
+
+
+## fourbitregister
+
+
+## twoxonemux_fourbit
+
+
+## fourbitmultiplier
+
+
+## eightbitadder
+
+
+## customcounter
+
 
 ## Testbench
 
@@ -46,8 +66,5 @@ A custom testbench is included to provide the necessary inputs to the matrix mul
 
 After running the simulation, the output of the 2x2 matrix multiplier is obtained. The output is verified to ensure correct multiplication of the input matrices.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
