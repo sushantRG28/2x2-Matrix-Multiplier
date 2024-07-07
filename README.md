@@ -25,7 +25,7 @@ The 2x2 matrix multiplier is designed by connecting various combinational and se
 
 The design involves creating connections among various blocks to perform matrix multiplication. The modules used are listed below:
 
-### Modules
+## Modules
 
 The design is broken down into several modules, each responsible for a specific part of the matrix multiplication:
 
