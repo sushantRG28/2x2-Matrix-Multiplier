@@ -37,7 +37,7 @@ The design is broken down into several modules, each responsible for a specific 
 - [8-bit adder](#eightbitadder)
 - [Custom counter](#customcounter)
 
- ## 3-bit counter
+ ## 3-bitcounter
 
 
 ## threexeightdecoder
